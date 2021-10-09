@@ -1,0 +1,24 @@
+{
+  "name": "mernthapayoutube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon app.js",
+    "start": "npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashmit129/MERNThapaYoutube.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yashmit129/MERNThapaYoutube/issues"
+  },
+  "homepage": "https://github.com/Yashmit129/MERNThapaYoutube#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
