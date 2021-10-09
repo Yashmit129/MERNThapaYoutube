@@ -2,9 +2,9 @@
   "name": "mernthapayoutube",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "serve": "nodemon app.js",
+    "serve": "nodemon",
     "start": "npm run serve"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Yashmit129/MERNThapaYoutube#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
