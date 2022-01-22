@@ -4,11 +4,18 @@ const app = express();
 
 const port = 3000;
 
+const middleware = (req, res, next) => {
+	console.log("Hello My MiddleWare");
+	next();
+}
+
+
 app.get('/', (req, res) => {
 	res.send('Hello world from the server');
 })
 
-app.get('/about', (req, res) => {
+app.get('/about', middleware, (req, res) => {
+	console.log("Hello My About");
 	res.send('Hello About world from the server');
 })
 
